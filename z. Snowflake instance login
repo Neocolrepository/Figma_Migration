@@ -1,0 +1,34 @@
+Snowflake connection credentials
+
+Organization
+ZVZZHFR
+
+Region
+US West (Oregon)
+
+Locator
+YTA50202
+
+Org-Locator.region: 
+YTA50202.us-west-2.snowflakecomputing.com
+
+Org-username.region
+ZVZZHFR-NEOCOL_EXTERNAL_READ_WRITE.us-west-2.snowflakecomputing.com
+
+Connecting on Pentaho PDI & VS code use locator.snowflake:
+YTA50202.snowflakecomputing.com
+
+Command on terminal to connect
+snowsql -a YTA50202 -u NEOCOL_EXTERNAL_READ_WRITE -P
+
+Find username and password credentials on 1Password! 
+
+----------
+HOW TO OPEN PENTAHO PDI ON FIGMA LAPTOP
+Open terminal
+
+Paste and execute below commands to start Pentaho:
+cd /Applications/data-integration/
+
+Then execute:
+./spoon.sh
