@@ -8,10 +8,15 @@ SQL querry and credentials to connect data from Snowflake isolated instance
 Other documents related to the ETL process
 
 Target Objects in scope: 
+
 Asset
+
 Asset State Period
+
 Asset Action
+
 Quote
+
 Quote Line Items 
 
 Quotes to be populated by Opportunities in flight data (Source Salesforce) 
